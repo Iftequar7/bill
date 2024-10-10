@@ -58,7 +58,7 @@ public class Demo extends HttpServlet {
         	Class.forName("com.mysql.jdbc.Driver");
 
             // Establish connection
-            connection = DriverManager.getConnection("jdbc:mysql://172.17.0.2:3306/cv01", "root", "Admin@123");
+            connection = DriverManager.getConnection("jdbc:mysql://database-1.cvom04u6egkb.us-east-1.rds.amazonaws.com:3306/cv01", "admin", "Master!234");
 
             // Create SQL insert statement
             String sql = "INSERT INTO bill_manage (bill_number, units, amount, generated_at) VALUES (?, ?, ?, ?)";
