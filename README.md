@@ -18,4 +18,4 @@ Package :
 mvn package
 
 Deployment:
-Tomcat
+Tomcat10
