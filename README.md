@@ -2,7 +2,10 @@
 Prerequisites:
 Java 21 and Maven
 Mysql database server
+
 CREATE DATABASE cv01;
+
+use cv01;
 
 CREATE TABLE bill_manage (
     id INT AUTO_INCREMENT PRIMARY KEY,
@@ -19,3 +22,13 @@ mvn package
 
 Deployment:
 Tomcat10
+
+**Verify the DB cmd**
+
+show databases;
+
+use cv01;
+
+show tables;
+
+select * from bill_manage
