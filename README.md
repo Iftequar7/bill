@@ -21,7 +21,7 @@ Package :
 mvn package
 
 Deployment:
-Tomcat 10
+Tomcat10
 
 **Verify the DB cmd**
 
