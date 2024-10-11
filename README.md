@@ -31,4 +31,4 @@ use cv01;
 
 show tables;
 
-select * from bill_manage
+select * from bill_manage;
